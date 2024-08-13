@@ -1,0 +1,92 @@
+:root {
+    --cor0: #FFFA5F;
+    --cor1: #D5D172;
+    --cor2: #AAA878;
+    --cor3: #807F6F;
+    --cor4: #555441;
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+   text-decoration: none;
+}
+
+nav {
+    background-color: var(--cor3);
+    padding: 25px;
+}
+
+nav>a {
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0.3s
+}
+
+nav>a:hover {
+    background-color: var(--cor2);
+    color: var(--cor4);
+}
+
+div.container {
+    background-image: url(imagens/casasdeluxo01.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-color: var(--cor1);
+    height: 70vh;
+    width: 100vw;
+    gap: 15px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.item1 a {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid black;
+    color: black;
+    
+}
+
+.item1 a:hover {
+    background-color: rgb(189, 187, 187);
+    transition: 0.3s;
+}
+
+.item2 a {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    padding: 13px;
+    border: 2px solid white;
+}
+
+.item2 a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+div.principal{
+    height: 400px;
+    display: flex;
+    flex-flow: nowrap;
+}
+
+div.selecionar{
+    background-color: blue;
+    border: 1px solid black;
+    flex: auto;
+    text-align: center;
+}
